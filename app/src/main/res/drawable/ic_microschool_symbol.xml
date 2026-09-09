@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="48dp"
+    android:height="48dp"
+    android:viewportWidth="48"
+    android:viewportHeight="48">
+
+    <!-- Background rounded square with gradient -->
+    <path
+        android:pathData="M12,4 L36,4 A8,8 0 0,1 44,12 L44,36 A8,8 0 0,1 36,44 L12,44 A8,8 0 0,1 4,36 L4,12 A8,8 0 0,1 12,4 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:angle="315"
+                android:endX="44"
+                android:endY="44"
+                android:startX="4"
+                android:startY="4"
+                android:type="linear">
+                <item android:color="#4F46E5" android:offset="0.0" />
+                <item android:color="#0EA5E9" android:offset="1.0" />
+            </gradient>
+        </aapt:attr>
+    </path>
+
+    <!-- Stylized Minimal Monogram 'M' with Book Fold -->
+    <!-- Left Wing -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M13,33 L13,19.5 C13,18.7 13.8,18.1 14.5,18.5 L23,23.5 L23,34.5 L15,29.5 C13.8,28.8 13,27.5 13,26.1 Z" />
+
+    <!-- Right Wing -->
+    <path
+        android:fillColor="#E0E7FF"
+        android:pathData="M35,33 L35,19.5 C35,18.7 34.2,18.1 33.5,18.5 L25,23.5 L25,34.5 L33,29.5 C34.2,28.8 35,27.5 35,26.1 Z" />
+
+    <!-- Center Apex Spark / Star -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M24,10 L25.2,13.2 L28.5,14.4 L25.2,15.6 L24,18.8 L22.8,15.6 L19.5,14.4 L22.8,13.2 Z" />
+</vector>

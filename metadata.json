@@ -1,0 +1,7 @@
+{
+  "name": "Microschool",
+  "description": "AI-powered personalized microschool study platform for active learning, deep understanding, retention, and exam preparation.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+
